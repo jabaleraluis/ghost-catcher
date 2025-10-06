@@ -7,7 +7,7 @@ Este pequeño proyecto es una animación divertida hecha con **HTML**, **CSS** y
 
 ## 🕹️ ¿De qué trata?
 
-Un fantasma aparece de forma aleatoria en la pantalla.  
+Un fantasma aparece de tiempo aleatorio en pantalla.  
 Cada vez que pasas el mouse por encima, **se esconde rápidamente** 👀  
 Tu objetivo es **hacer clic en él antes de que desaparezca**.  
 
