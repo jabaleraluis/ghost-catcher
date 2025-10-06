@@ -34,3 +34,8 @@ Se abre un modal que te muestra un **cupón de descuento**.
 1. Clona este repositorio o descarga los archivos:
    ```bash
    git clone https://github.com/jabaleraluis/ghost-catcher.git
+   
+
+## 🎬 Vista previa
+
+![Preview del proyecto](/assets/images/preview/preview.gif)
