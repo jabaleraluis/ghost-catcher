@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="assets/images/ghost.svg">
+  <link rel="stylesheet" href="/css/style.css" />
+  <title>Catch Me</title>
+</head>
+
+<body>
+
+  <svg xmlns="http://www.w3.org/2000/svg" class="svg__ghost" viewBox="0 0 24 24" width="200" height="200">
+    <path id="body"
+      d="M12 2C15.5 2 18 5 19 8C22 9 23 11.73 23 14L20.2253 14.7928C19.796 14.9154 19.5 15.3078 19.5 15.7543V17.25C19.5 18.2165 18.7165 19 17.75 19H17.1536C16.4825 19 15.8562 19.3366 15.4858 19.8962C14.5576 21.2987 13.3957 22 12 22C10.6043 22 9.44238 21.2987 8.5142 19.8962C8.14383 19.3366 7.51746 19 6.84636 19H6.25C5.2835 19 4.5 18.2165 4.5 17.25V15.7543C4.5 15.3078 4.20402 14.9154 3.77472 14.7928L1 14C1 11.7337 2 9 5 8C6 5 8.5 2 12 2Z"
+      fill="white" stroke="black" stroke-width=".75" />
+
+    <ellipse id="left-eye" cx="9.5" cy="9.5" rx="1.25" ry="1.75" fill="black" />
+
+    <ellipse id="right-eye" cx="14.5" cy="9.5" rx="1.25" ry="1.75" fill="black" />
+
+    <ellipse id="mouth" cx="12" cy="14.5" rx="1.2" ry="1.7" fill="black">
+      <animate attributeName="ry" values="1.7;2.2;1.7" dur="0.6s" repeatCount="indefinite" />
+    </ellipse>
+
+    <path id="left-hand"
+      d="M3.77472 14.7928C4.20402 14.9154 4.5 15.3078 4.5 15.7543V17.25C4.5 18.2165 5.2835 19 6.25 19H6.84636C7.51746 19 8.14383 19.3366 8.5142 19.8962C9.44238 21.2987 10.6043 22 12 22C13.3957 22 14.5576 21.2987 15.4858 19.8962C15.8562 19.3366 16.4825 19 17.1536 19H17.75C18.7165 19 19.5 18.2165 19.5 17.25V15.7543C19.5 15.3078 19.796 14.9154 20.2253 14.7928L23 14"
+      fill="none" stroke="black" stroke-width=".75" />
+    <path id="right-hand" d="M1 14L3.77472 14.7928" fill="none" stroke="black" stroke-width=".75" />
+  </svg>
+
+  <div class="modal">
+    <div class="modal__content">
+      <i class="modal__close-icon ri-close-line" id="modal-close-x"></i>
+
+      <h1 class="modal__title">¡Me atrapaste!</h1>
+      <p class="modal__message">
+        ¡Felicidades! <br>Has ganado un cupón de descuento
+      </p>
+
+      <button class="modal__button" id="modal-close-btn">
+        Reclamar
+        <i class="modal__button-icon ri-external-link-line"></i>
+      </button>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
